@@ -1,0 +1,16 @@
+{
+  "name": "fotoowl-media-sdk",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Headless media SDK ecosystem for React and React Native",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=web"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
