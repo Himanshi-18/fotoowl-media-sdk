@@ -8,7 +8,9 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npm run dev --workspace=web"
+    "dev": "npm run dev --workspace=web",
+    "build:packages": "npm run build --workspace=@fotoowl/media-core && npm run build --workspace=@fotoowl/media-react && npm run build --workspace=@fotoowl/media-ui-react",
+    "build": "npm run build:packages && npm run build --workspace=web"
   },
   "devDependencies": {
     "typescript": "^7.0.2"

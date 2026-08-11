@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run build --prefix ../../packages/media-core && npm run build --prefix ../../packages/media-react && npm run build --prefix ../../packages/media-ui-react && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.json"
   },
