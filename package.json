@@ -12,7 +12,7 @@
     "build:packages": "npm run build --workspace=@fotoowl/media-core && npm run build --workspace=@fotoowl/media-react && npm run build --workspace=@fotoowl/media-ui-react",
     "build": "npm run build:packages && npm run build --workspace=web"
   },
-  "devDependencies": {
+  "dependencies": {
     "typescript": "^7.0.2"
   }
 }
